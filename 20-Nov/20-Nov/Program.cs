@@ -4,18 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tasks_1_2_3_4_5__6
+namespace _20_Nov
 {
     internal class Program
     {
         static void Main(string[] args)
-
-
-
         {
-
-
-
             //Task1
 
 
@@ -97,17 +91,6 @@ namespace tasks_1_2_3_4_5__6
             int Sum = Num[0] + Num[1] + Num[2] + Num[3] + Num[4] + Num[5] + Num[6] + Num[7] + Num[8] + Num[9];
 
             Console.WriteLine(Sum);
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
