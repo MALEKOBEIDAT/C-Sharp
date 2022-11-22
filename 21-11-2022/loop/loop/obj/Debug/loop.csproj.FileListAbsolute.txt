@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\bin\Debug\loop.exe.config
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\bin\Debug\loop.exe
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\bin\Debug\loop.pdb
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\obj\Debug\loop.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\obj\Debug\loop.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\obj\Debug\loop.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\obj\Debug\loop.exe
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\21-11-2022\loop\loop\obj\Debug\loop.pdb
