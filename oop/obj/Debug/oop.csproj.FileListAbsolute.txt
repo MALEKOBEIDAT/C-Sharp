@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\bin\Debug\oop.exe.config
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\bin\Debug\oop.exe
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\bin\Debug\oop.pdb
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\obj\Debug\oop.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\obj\Debug\oop.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\obj\Debug\oop.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\obj\Debug\oop.exe
+C:\Users\dell\source\repos\MALEKOBEIDAT\C-Sharp\oop\oop\obj\Debug\oop.pdb
