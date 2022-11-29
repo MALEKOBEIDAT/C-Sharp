@@ -16,14 +16,14 @@ namespace _28_11
         {
 
             get { return make; }
-            set { make = "Germany"; }
+            set { make = value; }
 
         }
         private int year;
         public int Year
         {
             get { return year; }
-            set { year = 2018; }
+            set { year = value; }
         }
 
 
@@ -32,7 +32,7 @@ namespace _28_11
         public string Type
         {
             get { return type; }
-            set { type = "C200"; }
+            set { type = value; }
         }
 
         public string Color { get; set; }
@@ -44,16 +44,16 @@ namespace _28_11
             get { return price; }
             set
             {
-                price = 23555;
+                price = value;
             }
         }
-        private int model;
+        private string model;
         public string Model
         {
             get { return Model; }
             set
             {
-                model = 88558;
+                model = value;
             }
         }
         private int palletNo;
@@ -62,7 +62,7 @@ namespace _28_11
             get { return palletNo; }
             set
             {
-                palletNo = 64984949;
+                palletNo = value;
             }
         }
 
@@ -72,7 +72,7 @@ namespace _28_11
             get { return letter; }
             set
             {
-                letter = 120;
+                letter = value;
             }
         }
 
@@ -98,6 +98,12 @@ namespace _28_11
 
         }
 
+        //public Car()
+        //{ 
+
+
+        //}
+
         public void start()
         {
             Console.WriteLine("Car On");
@@ -116,7 +122,7 @@ namespace _28_11
 
         public void Power()
         {
-            Console.WriteLine(letter*18);
+            Console.WriteLine(letter*3+"  KM ");
 
         }
 
@@ -129,6 +135,8 @@ namespace _28_11
     class dr : Car
 
     {
+
+        // can run witout dr constructour but must put empty cuonstructur in Car class
         public dr(string make, int year, string type, string color, int price, string model, int palletNo ,int letter):base(make,year,type,color,price,model,palletNo,letter)        {
 
 
@@ -142,10 +150,14 @@ namespace _28_11
         static void Main(string[] args)
         {
 
-            Car Obj = new Car("Germany",2018,"C200","Black",45000,"Classic",24-8888,120);
+            Car Obj = new Car( " Mercedes-benz  ", 2018,"  S500","   Black  ",70000,"   Classic",24-8888,120);
            
             Obj.print();
+            Obj.start();
             Obj.Power();
+
+            
+            
 
 
 
