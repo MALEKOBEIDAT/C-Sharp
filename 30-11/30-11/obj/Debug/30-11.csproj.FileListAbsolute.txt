@@ -1,0 +1,8 @@
+C:\Users\dell\C-Sharp\30-11\30-11\bin\Debug\30-11.exe.config
+C:\Users\dell\C-Sharp\30-11\30-11\bin\Debug\30-11.exe
+C:\Users\dell\C-Sharp\30-11\30-11\bin\Debug\30-11.pdb
+C:\Users\dell\C-Sharp\30-11\30-11\obj\Debug\30-11.csproj.AssemblyReference.cache
+C:\Users\dell\C-Sharp\30-11\30-11\obj\Debug\30-11.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\C-Sharp\30-11\30-11\obj\Debug\30-11.csproj.CoreCompileInputs.cache
+C:\Users\dell\C-Sharp\30-11\30-11\obj\Debug\30-11.exe
+C:\Users\dell\C-Sharp\30-11\30-11\obj\Debug\30-11.pdb

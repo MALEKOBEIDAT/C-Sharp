@@ -4,59 +4,144 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace _29_11__task
 {
 
-    //    class Car
-    //    {
-    //        public void StartEngine() {
-    //            Console.WriteLine("Start");
-    //        }
-    //        public void StopEngine() {
-    //            Console.WriteLine("Stop");
-    //        }
-    //        public void OpenDoor() {
-    //            Console.WriteLine("Open door");
+     interface Car 
+    {
 
-    //        }
 
-    //        public void CloseDoor() { 
-    //            Console.WriteLine("Close door")
-    //        }
-    //        public void Honk() {
-    //            Console.WriteLine("Honk");
-    //        }
-    //        public void IncreaseSpeed() {
-    //            Console.WriteLine("Speed ");
-    //        }
-    //        public void DecreaseSpeed() {
-    //            Console.WriteLine("Speed low");
-    //        }
+         void StartEngine();
 
-    //        public void Breaks() {
-    //            Console.WriteLine("Break");
-    //        }
-    //        public void OpenWindow() {
-    //            Console.WriteLine("Open Wi")
-    //;        }
-    //        public void CloseWindow() { }
-    //        public void AdjustSeat() { }
-    //        public void CleanGlass() { }
-    //        public void ChangeGear() { }
-    //    }
+    
+        void StopEngine();
+
+
+
+      
+        void OpenDoor();
+
+
+         void CloseDoor();
+
+        void Honk();
+
+        void IncreaseSpeed();
+
+        void DecreaseSpeed();
+
+
+        void Breaks();
+
+
+        void OpenWindow();
+
+        void CloseWindow();
+
+        void AdjustSeat();
+        void CleanGlass();
+        void ChangeGear();
+    }
+
+
+    class driver : Car
+    {
+        public void AdjustSeat()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Breaks()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ChangeGear()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CleanGlass()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CloseDoor()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CloseWindow()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DecreaseSpeed()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Honk()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void IncreaseSpeed()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OpenDoor()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OpenWindow()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void StartEngine()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void StopEngine()
+        {
+            throw new NotImplementedException();
+        }
+
+    }
+
+
+
+
+
+
+
 
 
     class Employee
+
+
+
     {
+
         public string Name { get; set; }
-        public int Birthday { get; set; }
+        public DateTime Birthday { get; set; }
+
         public int ID { get; set; }
 
+        public DateTime date = DateTime.Now;
+        
 
 
-        public Employee(string name, int birthday, int id)
+
+        public Employee(string name, DateTime birthday, int id)
         {
+            
             Name = name;
             Birthday = birthday;
             ID= id;
@@ -65,45 +150,99 @@ namespace _29_11__task
 
         }
 
-        public void Calage (int Birthday) {
-            Console.WriteLine(2022 - Birthday);
-            
+        public void Calage () {
+
+            TimeSpan value = date - Birthday;
+            Console.WriteLine(  Name + "  Age is  " + (value.TotalDays)/365);
 
 
+           
         }
 
 
 
-        public void print() { 
+
+
+
+
+
+
+
+
+
+
+
+
+        public void Calage(int Birthday)
+        {
+            Console.WriteLine(Name + "  Age is  " + Convert.ToString(date.Year - Birthday));
+
+
+
+
+        }
+         
+
+
+
+
+        public virtual void print() { 
             Console.WriteLine(Name+ " " + Birthday + " " + ID);
         }
 
     }
 
 
-    class basee : Employee
+    class Manger : Employee
     {
-        public basee(string name, int birthday, int id):base(name, birthday, id) { 
+        public Manger(string name, DateTime birthday, int id):base(name, birthday, id) { 
 
 
         }
-        
-           
 
-        
+
+
+
+        public override void print()
+        {
+            Console.WriteLine(" Welcome " +  Name + " " +  Birthday + " " + ID  );
+        }
+
+
+
 
     }
 
-   
+
     internal class Program
     {
         static void Main(string[] args)
         {
+            DateTime d = new DateTime();
+            d = Convert.ToDateTime(Console.ReadLine());
 
-            Employee Obj = new Employee("Malek", 2001, 14);
+            Employee Obj = new Employee("Malek", d, 14);
+            Manger obj2 = new Manger("Mohammad", d, 15);
+            
 
-            Obj.print();
-            Obj.Calage(2001);
+
+
+
+
+
+           
+
+
+
+
+            Obj.Calage();
+
+            obj2.Calage();
+
+
+            
+
+
 
 
         }
